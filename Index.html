@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Starbucks Coffee Website Landing Page</title>
+</head>
+
+<body>
+    <section id="home">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/logo.png"
+                    class="logo" alt="Starbucks Logo"></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#favorites">Favorites</a></li>
+                <li><a href="#about">What's New</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="text-box">
+                <h2>Its not just a Coffee <br>Its <span>Starbucks</span></h2>
+                <p>Experience the perfect blend of tradition and innovation. From our classic Frappuccinos to our
+                    seasonal specials, every cup is crafted to perfection with ethically sourced beans.</p>
+                <a href="#favorites">Learn More</a>
+            </div>
+            <div class="img-box">
+                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/img1.png"
+                    class="starbucks" alt="Starbucks Coffee Cup">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/thumb1.png"
+                    alt="Green Tea Frappuccino"
+                    onclick="imgSlider('https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/img1.png');changeCircleColor('#017143')">
+            </li>
+            <li><img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/thumb2.png"
+                    alt="Pink Strawberry Frappuccino"
+                    onclick="imgSlider('https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/img2.png');changeCircleColor('#eb3d94')">
+            </li>
+            <li><img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/thumb3.png"
+                    alt="Purple Frappuccino"
+                    onclick="imgSlider('https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/img3.png');changeCircleColor('#d752b1')">
+            </li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img
+                        src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/facebook.png"
+                        alt="Facebook"></a></li>
+            <li><a href="#"><img
+                        src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/instagram.png"
+                        alt="Instagram"></a></li>
+            <li><a href="#"><img
+                        src="https://raw.githubusercontent.com/farazc60/Project-Images/main/starbucks/twitter.png"
+                        alt="Twitter"></a></li>
+        </ul>
+    </section>
+
+    <section id="favorites" class="menu-section">
+        <div class="content-header">
+            <h2>Seasonal <span>Favorites</span></h2>
+            <p>Our most-loved handcrafted beverages, brewed to perfection just for you.</p>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1550586678-f7225f03c44b?q=80&w=800&auto=format&fit=crop"
+                        alt="Nano Banana Drink">
+                </div>
+                <div class="card-info">
+                    <h3>Nano Banana Smoothie</h3>
+                    <p>A creamy, refreshing blend of sun-ripened bananas and organic honey, topped with a light whipped
+                        foam.</p>
+                    <span class="price">$5.45</span>
+                    <a href="#" class="order-btn">Order Now</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=800&auto=format&fit=crop"
+                        alt="Iced Matcha Latte">
+                </div>
+                <div class="card-info">
+                    <h3>Iced Matcha Latte</h3>
+                    <p>Smooth and creamy matcha sweetened and served over ice with your choice of milk.</p>
+                    <span class="price">$5.25</span>
+                    <a href="#" class="order-btn">Order Now</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop"
+                        alt="Caffè Latte">
+                </div>
+                <div class="card-info">
+                    <h3>Caffè Latte</h3>
+                    <p>Our dark, rich espresso balanced with steamed milk and a light layer of foam. A perfect classic.
+                    </p>
+                    <span class="price">$4.45</span>
+                    <a href="#" class="order-btn">Order Now</a>
+                </div>
+            </div>
+            <div class="product-card limited-edition">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1550586678-f7225f03c44b?q=80&w=800&auto=format&fit=crop"
+                        alt="Nano Banana Smoothie">
+                </div>
+                <div class="card-info">
+                    <h3>Nano Banana Smoothie</h3>
+                    <p>A limited edition creamy banana blend with organic honey and mini sun-dried banana chips.</p>
+                    <span class="price">$5.75</span>
+                    <a href="#" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Starbucks Coffee Company. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
