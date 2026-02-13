@@ -1,20 +1,20 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/Index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
+    "cleanUrls": true,
+    "rewrites": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
+            "source": "/",
+            "destination": "/index.html"
         }
-      ]
-    }
-  ]
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
+        }
+    ]
 }
